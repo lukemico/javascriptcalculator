@@ -1,30 +1,55 @@
 # Technical Exercise | Javascript Calculator
 
-This git repo contains all the code you need to prototype apps for the Watch.
-Start at the master [wiki](https://github.com/twlevelup/watch_edition/wiki), which contains lots of useful documentation.
+## Project Outline
+The following coding test involves 2 parts - 
+1) The first part is to develop a small JavaScript library that performs some simple arithmetic operations. eg add, subtract, divide and multiply. 
+2) The second part is to develop a UI for a calculator that should also use your calc utility.
 
-See the [Installation Instructions]()
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-# Continuous Integration
+## Prerequisites
+Ensure that you have the following installed on your local machine before installation of :
 
-This project is continuously deployed to GitHub Pages by [Circle CI](https://circleci.com).
-You can view this app at []()
+Install Git [Git](https://git-scm.com/downloads) (latest version)  
+Install Node.js [NodeJS](https://nodejs.org/en/download/)  (latest version)
+Install npm [npm](https://www.npmjs.com/get-npm)
 
-### Before you push
+## Installation 
+Clone the repo:
 
-1. Check the CI build, do not pull unless it's passing!
-2. Run `git pull --rebase`
-3. Fix any merge conflicts
-4. Run
-    * `./go pre-commit` (OS X)
-    * `npm -s run test` (Windows)
-    * `docker-compose -f docker-compose.test.yml up` (Docker)
+```
+git clone https://github.com/lukemico/javascriptcalculator.git
 
-5. Fix any errors
-6. Repeat steps 2-5 until all tests have passed and all conflicts have been resolved
-7. Run ```git push```
+cd javascriptcalculator
+```
 
-### Checking the build status
-You can access the CI server and view the status of the build here [Circle CI](https://circleci.com/gh/twlevelup/syd-2018-sem1-jupiter)
+then follow instructions in the Running section.
 
-# javascriptcalculator
+## Steps for running a local version
+Run the following via the Command Line:
+
+```
+cd javascriptcalculator  ( to ensure you are in the correct folder ) 
+
+run npm install
+
+run npm start
+```
+
+You should now be directed to a locally hosted version of the Calculator exercise.
+
+## Built With
+[NodeJS](https://nodejs.org/en/download/) - the run-time environment framework.
+[JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) - to handle the data and its inputs/ outputs. 
+[HTML](https://www.w3.org/html/) - the markup that pulls together code to render calculator  
+[CSS](https://www.w3.org/Style/CSS/) - for the styling of the calculator. 
+
+## Versioning
+GitHub used for versioning. For the versions available, see the tags on this repository.
+
+## Author/s
+Luke Mico
+
+## License
+Source code distributed under the MIT license. Text, imagery and other assets copyright resource11, all rights reserved.
