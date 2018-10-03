@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+body {
+    background: #F6F6F6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.calc {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #4C4C4E;
+    background-image: linear-gradient(to left, #4C4C4E, 95%, #535355, #4C4C4E);
+    padding: 15px;
+    border: 1px solid #2B2B2B;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7), -1px -1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.calc input,
+.calc-button {
+    font-family: 'Space Mono';
+}
+
+.window {
+    height: 1.5em;
+    line-height: 1.5em;
+    // width: 100%;
+    background: #ccc;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    color: #000;
+    text-align: right;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.calculator-buttons {
+    /* small spacing within our container */
+    padding: 20px;
+    /* the grid stuff! */
+    display: grid;
+    /* create 4 columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* add the grid gap */
+    grid-gap: 15px;
+}
+
+.btn {
+    margin: 4px 0 0 0;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+    background: #99999B;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.8);
+}
+
+.silver {
+    background-color: silver;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.is-equals {
+    background: orange;
+    grid-column: span 2;
+}
