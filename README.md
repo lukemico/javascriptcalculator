@@ -41,8 +41,11 @@ You should now be directed to a locally hosted version of the Calculator exercis
 
 ## Built With
 [NodeJS](https://nodejs.org/en/download/) - the run-time environment framework.
+
 [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) - to handle the data and its inputs/ outputs. 
-[HTML](https://www.w3.org/html/) - the markup that pulls together code to render calculator  
+
+[HTML](https://www.w3.org/html/) - the markup that pulls together code to render calculator  .
+
 [CSS](https://www.w3.org/Style/CSS/) - for the styling of the calculator. 
 
 ## Versioning
