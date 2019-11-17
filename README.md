@@ -28,3 +28,4 @@ You can view this app at []()
 You can access the CI server and view the status of the build here [Circle CI](https://circleci.com/gh/twlevelup/syd-2018-sem1-jupiter)
 
 # javascriptcalculator
+# javascript-calculator
